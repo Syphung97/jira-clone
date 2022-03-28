@@ -1,0 +1,22 @@
+{
+  "name": "jira-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syphung97/jira-clone.git"
+  },
+  "keywords": [
+    "ptsy"
+  ],
+  "author": "ptsy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syphung97/jira-clone/issues"
+  },
+  "homepage": "https://github.com/Syphung97/jira-clone#readme"
+}

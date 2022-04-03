@@ -1,0 +1,25 @@
+$light-blue: rgb(28, 99, 206);
+
+.navbarLeft-content {
+  @apply h-screen w-navbarLeft pt-6 pb-5 flex flex-col bg-primary flex-shrink-0;
+}
+
+.logoLink{
+  @apply relative flex align-middle justify-center
+}
+
+.item {
+  @apply flex align-middle justify-center cursor-pointer;
+  min-height: 42px;
+
+  .user-profile-photo {
+    width: 26px;
+  }
+}
+.itemIcon {
+  @apply w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 select-none transition-colors duration-100 cursor-pointer;
+
+}
+.itemIcon:hover {
+  background: $light-blue;
+}
